@@ -1,4 +1,3 @@
-
 :root{--ink:#e8eef8;--muted:#9aa7bd;--cyan:#5ce1e6;--glass:rgba(8,12,22,.55);--stroke:rgba(255,255,255,.12);--ease:cubic-bezier(.22,1,.36,1)}
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;overflow:hidden;background:#02040a;color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif}
@@ -90,4 +89,3 @@ html,body{margin:0;height:100%;overflow:hidden;background:#02040a;color:var(--in
 .scale b.on{opacity:1;transform:translateY(-3px);box-shadow:0 8px 16px rgba(0,0,0,.18)}
 .det .note{margin:12px 0 18px;font-size:13.5px;color:#4a5b55}
 @media(min-width:761px){.det{grid-template-columns:minmax(210px,330px) 1fr;align-items:center;gap:28px}.det .pic{min-height:250px;font-size:120px}.det h3{font-size:30px;line-height:1.15}.det .sci{font-size:19px}}
-

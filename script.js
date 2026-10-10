@@ -1,4 +1,3 @@
-
 /* ---------------------------------------------------------------------------
    INDIA OUTLINE — hand-built simplified boundary following the Survey of India
    map (full J&K incl. PoK & Gilgit-Baltistan, Ladakh incl. Aksai Chin, Arunachal).
@@ -7,8 +6,8 @@
 --------------------------------------------------------------------------- */
 const INDIA_RINGS = [
  [ // mainland (Sir Creek → clockwise via north, east, south, west)
-  [68.15,23.65],[68.35,23.95],[68.75,24.25],[69.25,24.28],[69.6,24.2],[70.0,24.5],[70.1,25.0],[70.35,25.6],[70.1,26.2],[70.1,26.9],[70.4,27.6],[70.1,27.95],[70.9,28.3],[71.8,28.7],[72.6,28.95],[73.3,29.4],[73.9,29.95],[74.4,30.45],[74.6,30.95],[74.55,31.4],[74.6,31.75],[74.95,32.0],[75.2,32.35],[75.0,32.45],[74.65,32.62],[74.35,32.8],
-  [74.15,32.75],[73.9,33.05],[73.55,33.5],[73.4,33.95],[73.3,34.4],[73.55,34.75],[73.9,35.05],[73.4,35.35],[72.95,35.55],[72.6,35.95],[72.8,36.4],[73.4,36.85],[73.7,36.9],[74.5,37.05],[75.0,37.0],[75.35,36.9],[75.9,36.8],[76.2,36.6],[77.0,36.4],[77.8,35.9],[78.6,35.85],[79.4,35.55],[80.2,35.4],[80.3,34.9],[79.9,34.3],[79.6,33.0],[79.4,32.7],[79.0,32.4],[78.7,32.0],[78.75,31.65],[78.4,31.1],[79.1,31.0],[79.9,30.9],[80.3,30.55],[81.05,30.2],[80.9,30.15],[80.55,29.85],[80.25,29.4],[80.2,29.2],[80.1,28.85],
+  [68.15,23.65],[68.2,23.77],[68.33,23.92],[68.45,24.02],[68.62,24.18],[68.77,24.28],[69.05,24.27],[69.3,24.28],[69.55,24.27],[69.8,24.2],[70.02,24.2],[70.05,24.6],[70.0,24.78],[70.15,25.0],[70.3,25.4],[70.37,25.7],[70.2,26.0],[70.05,26.3],[70.02,26.6],[70.1,27.0],[70.2,27.4],[70.3,27.72],[70.2,27.95],[70.55,28.1],[70.9,28.28],[71.3,28.5],[71.8,28.75],[72.3,28.9],[72.7,29.0],[73.05,29.2],[73.4,29.5],[73.7,29.75],[73.95,29.92],[73.95,30.3],[74.2,30.55],[74.55,30.96],[74.55,31.3],[74.6,31.7],[74.75,31.95],[75.02,32.03],[75.2,32.35],[75.0,32.45],[74.65,32.62],[74.35,32.8],[74.15,32.75],
+  [73.9,33.05],[73.75,33.2],[73.55,33.5],[73.4,33.95],[73.3,34.4],[73.55,34.75],[73.9,35.05],[73.4,35.35],[72.95,35.55],[72.6,35.95],[72.8,36.4],[73.4,36.85],[73.7,36.9],[74.5,37.05],[74.9,37.05],[75.35,36.92],[75.9,36.8],[76.2,36.6],[76.6,36.5],[77.0,36.4],[77.4,36.15],[77.8,35.9],[78.2,35.88],[78.6,35.85],[79.0,35.75],[79.4,35.58],[79.85,35.45],[80.28,35.38],[80.3,34.9],[80.2,34.5],[79.95,34.25],[79.8,33.8],[79.58,33.4],[79.35,33.1],[79.45,32.7],[79.0,32.4],[78.7,32.0],[78.75,31.65],[78.4,31.1],[79.1,31.0],[79.9,30.9],[80.3,30.55],[81.05,30.2],[80.9,30.15],[80.55,29.85],[80.25,29.4],[80.2,29.2],[80.1,28.85],
   [80.5,28.65],[81.1,28.35],[81.5,28.2],[82.0,27.85],[82.7,27.6],[83.3,27.4],[83.8,27.4],[84.2,27.45],[84.7,27.1],[85.4,26.7],[86.0,26.6],[86.7,26.45],[87.3,26.4],[87.9,26.45],[88.15,26.55],[88.05,27.1],[88.15,27.6],[88.15,27.9],[88.55,28.1],[88.85,28.0],[88.9,27.55],[88.8,27.3],[88.9,27.1],[89.1,26.85],[89.6,26.75],[90.2,26.8],[90.9,26.8],[91.5,26.8],[92.0,26.85],[92.05,27.15],[91.85,27.5],[91.6,27.8],[91.65,27.95],[92.1,28.2],[92.7,28.1],[93.1,28.5],[93.7,28.65],[94.2,29.25],[94.85,29.35],[95.4,29.05],[95.9,28.5],[96.4,28.35],[96.8,28.3],[97.1,28.4],[97.4,28.25],
   [97.05,27.8],[96.9,27.55],[96.4,27.25],[96.1,27.2],[95.75,26.9],[95.35,26.5],[95.2,26.0],[95.0,25.55],[94.7,25.1],[94.3,24.35],[94.1,24.2],[93.7,23.85],[93.4,23.35],[93.15,22.95],[93.15,22.4],[92.95,22.05],[92.65,22.0],[92.4,22.7],[92.25,23.2],[92.3,23.65],[91.95,23.35],[91.7,23.05],[91.45,22.95],[91.2,23.1],[91.15,23.65],[91.3,24.0],[91.6,24.15],[91.9,24.4],[92.2,24.85],[92.02,25.17],[91.6,25.15],[91.0,25.2],[90.5,25.15],[90.0,25.2],[89.85,25.3],[89.85,25.85],[89.75,26.0],[89.4,26.15],[89.0,26.25],[88.7,26.4],[88.45,26.45],[88.4,26.15],[88.45,25.9],[88.3,25.55],[88.05,25.25],[88.25,24.9],[88.1,24.6],[88.3,24.3],[88.6,23.95],[88.75,23.6],[88.85,23.25],[89.0,22.95],[88.95,22.5],[89.0,22.1],[88.9,21.8],
   [88.7,21.6],[88.35,21.65],[88.1,21.75],[87.8,21.7],[87.2,21.55],[87.0,21.2],[86.9,20.8],[86.7,20.3],[86.2,19.95],[85.8,19.75],[85.4,19.4],[84.9,19.15],[84.4,18.7],[83.9,18.3],[83.4,17.85],[83.0,17.45],[82.5,17.0],[82.25,16.9],[81.8,16.3],[81.3,16.1],[80.9,15.75],[80.6,15.4],[80.2,14.5],[80.1,14.1],[80.3,13.5],[80.28,13.1],[80.0,12.5],[79.85,11.95],[79.8,11.4],[79.85,10.8],[79.85,10.3],[79.4,9.95],[79.15,9.4],[78.9,9.2],[78.3,8.85],[77.95,8.65],[77.55,8.08],
@@ -22,11 +21,12 @@ const INDIA_RINGS = [
  ...[[72.64,10.56],[72.2,10.85],[73.0,8.28],[72.78,11.2]].map(([x,y])=>{const r=.07;return [[x-r,y-r],[x+r,y-r],[x+r,y+r],[x-r,y+r],[x-r,y-r]]}) // Lakshadweep
 ];
 
-const INDIA_FILL = {type:"FeatureCollection",features:INDIA_RINGS.map(r=>({type:"Feature",properties:{},geometry:{type:"Polygon",coordinates:[r]}}))};
-const INDIA_LINES = {type:"FeatureCollection",features:INDIA_RINGS.map(r=>({type:"Feature",properties:{},geometry:{type:"LineString",coordinates:r}}))};
+let INDIA_FILL = {type:"FeatureCollection",features:INDIA_RINGS.map(r=>({type:"Feature",properties:{},geometry:{type:"Polygon",coordinates:[r]}}))};
+let INDIA_LINES = {type:"FeatureCollection",features:INDIA_RINGS.map(r=>({type:"Feature",properties:{},geometry:{type:"LineString",coordinates:r}}))};
 
 const CONFIG = {
-  styleUrl:"https://tiles.openfreemap.org/styles/dark",
+  styleUrl:{version:8,projection:{type:"globe"},sources:{sat:{type:"raster",tiles:["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"],tileSize:256,maxzoom:18}},
+    layers:[{id:"bg",type:"background",paint:{"background-color":"#02040a"}},{id:"sat",type:"raster",source:"sat",paint:{"raster-saturation":.15,"raster-contrast":.1,"raster-fade-duration":150}}]},
   fallbackStyle:{version:8,sources:{c:{type:"raster",tiles:["https://a.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png","https://b.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png"],tileSize:256}},
     layers:[{id:"bg",type:"background",paint:{"background-color":"#02040a"}},{id:"c",type:"raster",source:"c",paint:{"raster-opacity":.85}}]},
   start:{center:[-25,18],zoom:1.55,pitch:0,bearing:0},
@@ -45,12 +45,12 @@ const tween=(ms,fn,e=ease.outCubic)=>new Promise(res=>{const s=performance.now()
 /* Starfield with parallax drift + occasional shooting stars */
 const Starfield={
   init(){this.c=document.getElementById("starfield");this.x=this.c.getContext("2d");this.shoot=[];
-    this.resize();addEventListener("resize",()=>this.resize());this.mx=0;this.my=0;
+    this.resize();addEventListener("resize",()=>this.resize());document.addEventListener("fullscreenchange",()=>setTimeout(()=>this.resize(),60));this.mx=0;this.my=0;
     addEventListener("pointermove",e=>{this.mx=e.clientX/innerWidth-.5;this.my=e.clientY/innerHeight-.5});
     this.sx=0;this.sy=0;requestAnimationFrame(t=>this.loop(t))},
-  resize(){const d=Math.min(devicePixelRatio||1,2);this.c.width=innerWidth*d;this.c.height=innerHeight*d;this.x.setTransform(d,0,0,d,0,0);
+  resize(){const d=Math.min(devicePixelRatio||1,2);this.c.width=innerWidth*d;this.c.height=innerHeight*d;this.x.setTransform(d,0,0,d,0,0);this.force=1;
     this.stars=Array.from({length:Math.round(innerWidth*innerHeight/7000)},()=>({x:Math.random()*innerWidth,y:Math.random()*innerHeight,r:Math.random()*1.3+.2,a:Math.random()*6,s:.006+Math.random()*.02,z:Math.random()}))},
-  loop(t){const x=this.x;x.clearRect(0,0,innerWidth,innerHeight);
+  loop(t){if((window.__dashBusy&&!this.force)||t-(this.lt||0)<(App.state==="live"?45:30)){requestAnimationFrame(t=>this.loop(t));return}this.lt=t;this.force=0;const x=this.x;x.clearRect(0,0,innerWidth,innerHeight);
     this.sx+=(this.mx-this.sx)*.04;this.sy+=(this.my-this.sy)*.04;
     for(const s of this.stars){s.a+=s.s;const px=((s.x+this.sx*-30*s.z+t*.002*s.z)%innerWidth+innerWidth)%innerWidth,py=s.y+this.sy*-30*s.z;
       x.fillStyle=`rgba(225,238,255,${.2+Math.abs(Math.sin(s.a))*.75})`;x.beginPath();x.arc(px,py,s.r,0,6.283);x.fill()}
@@ -72,7 +72,7 @@ const App={
     Starfield.init();
     const m=this.map=new maplibregl.Map({container:"map",style:CONFIG.styleUrl,...CONFIG.start,attributionControl:false,canvasContextAttributes:{antialias:true},fadeDuration:0});
     window.__AETHER_MAP__=m;
-    m.on("error",e=>{if(this.fell||this.started)return;if(/openfreemap|fetch|404|network/i.test(String(e&&e.error&&e.error.message||e))){this.fell=true;m.setStyle(CONFIG.fallbackStyle)}});
+    m.on("error",e=>{if(this.fell||this.started)return;if(/arcgisonline|openfreemap|fetch|404|network/i.test(String(e&&e.error&&e.error.message||e))){this.fell=true;m.setStyle(CONFIG.fallbackStyle)}});
     m.on("style.load",()=>this.onStyle());
     this.$("btnReset").onclick=()=>this.reset();
     this.$("btnReplay").onclick=()=>this.play();
@@ -82,7 +82,7 @@ const App={
   onStyle(){
     const m=this.map;
     m.setProjection({type:"globe"});
-    m.setSky({"sky-color":"#02040a","sky-horizon-blend":.6,"horizon-color":"#2a5aa8","horizon-fog-blend":.8,"fog-color":"#0a1a33","fog-ground-blend":.7,"atmosphere-blend":["interpolate",["linear"],["zoom"],0,1,4,.4,6,0]});
+    m.setSky({"sky-color":"#02040a","sky-horizon-blend":.5,"horizon-color":"#5aa7ff","horizon-fog-blend":.7,"fog-color":"#6fb0ff","fog-ground-blend":.5,"atmosphere-blend":["interpolate",["linear"],["zoom"],0,1,4,.4,6,0]});
     // Clean slate: remove every label/icon and the basemap's own country borders
     for(const l of m.getStyle().layers){
       if(l.type==="symbol"||/boundary|border|admin/i.test(l.id)) m.setLayoutProperty(l.id,"visibility","none");
@@ -121,13 +121,13 @@ const App={
     const m=this.map;
     m.setPaintProperty("in-line","line-gradient",this.grad(p));
     m.setPaintProperty("in-glow","line-opacity",.5*Math.min(p*1.4,1));
-    m.setPaintProperty("in-fill","fill-opacity",.14*ease.outCubic(Math.max(0,(p-.35)/.65)));
+    m.setPaintProperty("in-fill","fill-opacity",.05*ease.outCubic(Math.max(0,(p-.35)/.65)));
   },
 
   // Slow "breathing" glow once the outline is complete
   startBreath(){cancelAnimationFrame(this.breath);const m=this.map,s=performance.now();
-    const f=n=>{if(this.state!=="live")return;const k=ease.inOutSine((Math.sin((n-s)/1100)+1)/2);
-      m.setPaintProperty("in-glow","line-opacity",.3+.35*k);m.setPaintProperty("in-glow","line-width",7+4*k);
+    let last=0;const f=n=>{if(this.state!=="live")return;if(!Dash.hov&&!window.__dashBusy&&n-last>80){last=n;const k=ease.inOutSine((Math.sin((n-s)/1100)+1)/2);
+      m.setPaintProperty("in-glow","line-opacity",.3+.35*k);m.setPaintProperty("in-glow","line-width",7+4*k)}
       this.breath=requestAnimationFrame(f)};this.breath=requestAnimationFrame(f)},
 
   async play(){
@@ -145,20 +145,24 @@ const App={
     await new Promise(r=>m.once("moveend",r));
     // 3) trace the outline, then settle into live mode
     this.$("topbar").classList.add("visible");
+    await Promise.race([OUT,new Promise(r=>setTimeout(r,3500))]);
     await tween(2600,(t,raw)=>this.setReveal(t),ease.inOutCubic);
     this.setReveal(1);
     this.state="live";this.gestures(true);this.ui(true);
     this.pitchOn=m.getPitch()>5;
     if(!this._nav){m.addControl(new maplibregl.NavigationControl({visualizePitch:true}),"bottom-right");this._nav=true}
     this.startBreath();
+    if(!this._mk){this._mk=1;setTimeout(()=>Dash.markers(),700)}
   },
 
   jump(){const m=this.map;m.jumpTo(CONFIG.india);this.setReveal(1);this.$("intro").style.display="none";
     this.$("topbar").classList.add("visible");this.state="live";this.gestures(true);this.ui(true);
-    this.pitchOn=true;if(!this._nav){m.addControl(new maplibregl.NavigationControl({visualizePitch:true}),"bottom-right");this._nav=true}},
+    this.pitchOn=true;if(!this._nav){m.addControl(new maplibregl.NavigationControl({visualizePitch:true}),"bottom-right");this._nav=true}
+    if(!this._mk){this._mk=1;Dash.markers()}},
 
   async reset(){
     if(this.state!=="live")return;
+    $("dash").classList.remove("show");
     const m=this.map;this.state="anim";cancelAnimationFrame(this.breath);this.gestures(false);this.ui(false);
     m.flyTo({...CONFIG.india,duration:1800,essential:true,easing:ease.inOutCubic});
     await new Promise(r=>m.once("moveend",r));
@@ -166,6 +170,264 @@ const App={
   },
 
   togglePitch(){this.pitchOn=!this.pitchOn;this.map.easeTo({pitch:this.pitchOn?CONFIG.india.pitch:0,duration:900,easing:ease.inOutCubic,essential:true})}
-};
-App.init();
+};/* =========================================================================
+   BIODIVERSITY DATA — EDIT HERE.  Row format:
+   "State,lng,lat,forestCover%;Animal|IUCN;Bird|IUCN;Tree|IUCN;Flower|IUCN"
+   Pre-filled from memory: verify names/IUCN codes (iucnredlist.org) and
+   forest cover (ISFR 2021, fsi.nic.in). Leave forest blank if unknown.
+   RICH adds optional details per symbol: sci (scientific name) and img.
+   img = any URL or local path, e.g. "images/kerala-elephant.jpg".
+   You can also edit everything live with the Edit button; it is saved in
+   your browser (IndexedDB: hundreds of MB, no more 5 MB limit) and can be exported/imported as JSON.
+========================================================================= */
+const ROWS=[
+"Andhra Pradesh,79.7,15.9,18.3;Blackbuck|LC;Indian Roller|LC;Neem|NE;Jasmine|NE",
+"Arunachal Pradesh,94.7,28.2,79.3;Gayal (Mithun)|NE;Great Hornbill|VU;Hollong|NE;Foxtail Orchid|NE",
+"Assam,92.9,26.3,36.1;One-horned Rhinoceros|VU;White-winged Wood Duck|EN;Hollong|NE;Foxtail Orchid|NE",
+"Bihar,85.6,25.7,7.8;Gaur|VU;House Sparrow|LC;Peepal|NE;Marigold|NE",
+"Chhattisgarh,82.0,21.3,41.1;Wild Water Buffalo|EN;Hill Myna|LC;Sal|NE;Indian Cork Tree|NE",
+"Goa,74.0,15.35,60.6;Gaur|VU;Flame-throated Bulbul|LC;Matti|NE;Jasmine|NE",
+"Gujarat,71.5,22.6,7.6;Asiatic Lion|EN;Greater Flamingo|LC;Banyan|NE;Marigold|NE",
+"Haryana,76.3,29.8,3.6;Blackbuck|LC;Black Francolin|LC;Peepal|NE;Lotus|NE",
+"Himachal Pradesh,77.4,31.9,27.7;Snow Leopard|VU;Western Tragopan|VU;Deodar|LC;Pink Rhododendron|NE",
+"Jharkhand,85.4,23.7,29.8;Asian Elephant|EN;Asian Koel|LC;Sal|NE;Palash|NE",
+"Karnataka,76.2,14.8,20.2;Asian Elephant|EN;Indian Roller|LC;Sandalwood|VU;Lotus|NE",
+"Kerala,76.5,10.4,54.7;Asian Elephant|EN;Great Hornbill|VU;Coconut Palm|NE;Kanikonna|NE",
+"Madhya Pradesh,78.3,23.5,25.1;Barasingha|VU;Asian Paradise Flycatcher|LC;Banyan|NE;White Lily|NE",
+"Maharashtra,75.8,19.4,16.5;Indian Giant Squirrel|LC;Yellow-footed Green Pigeon|LC;Mango|DD;Jarul|NE",
+"Manipur,93.9,24.7,74.3;Sangai (Brow-antlered Deer)|EN;Mrs Hume's Pheasant|NT;Uningthou|NE;Siroi Lily|NE",
+"Meghalaya,91.4,25.5,76.0;Clouded Leopard|VU;Hill Myna|LC;Gamari|NE;Lady's Slipper Orchid|NE",
+"Mizoram,92.9,23.3,84.5;Himalayan Serow|VU;Hume's Pheasant|NT;Indian Rose Chestnut|NE;Red Vanda|NE",
+"Nagaland,94.4,26.1,73.9;Gayal (Mithun)|NE;Blyth's Tragopan|VU;Alder|NE;Rhododendron|NE",
+"Odisha,84.5,20.5,33.5;Sambar|VU;Indian Roller|LC;Ashoka|VU;Ashoka|VU",
+"Punjab,75.3,31.0,3.7;Blackbuck|LC;Northern Goshawk|LC;Shisham|NE;Gladiolus|NE",
+"Rajasthan,73.8,26.6,4.9;Chinkara|LC;Great Indian Bustard|CR;Khejri|VU;Rohida|NE",
+"Sikkim,88.5,27.55,47.1;Red Panda|EN;Blood Pheasant|LC;Rhododendron|NE;Noble Dendrobium|NE",
+"Tamil Nadu,78.4,11.0,20.3;Nilgiri Tahr|EN;Emerald Dove|LC;Palmyra Palm|NE;Glory Lily|NE",
+"Telangana,79.0,17.9,18.9;Spotted Deer|LC;Indian Roller|LC;Jammi|VU;Tangedu|NE",
+"Tripura,91.7,23.8,73.6;Phayre's Langur|EN;Green Imperial Pigeon|LC;Agar|CR;Nageshwar|NE",
+"Uttar Pradesh,80.9,26.9,6.2;Barasingha|VU;Sarus Crane|VU;Ashoka|VU;Palash|NE",
+"Uttarakhand,79.1,30.1,45.4;Alpine Musk Deer|EN;Himalayan Monal|LC;Burans|NE;Brahma Kamal|NE",
+"West Bengal,87.9,23.2,19.0;Fishing Cat|VU;White-throated Kingfisher|LC;Chatim|NE;Shiuli|NE",
+"Jammu & Kashmir,75.0,33.7,;Hangul|CR;Black-necked Crane|NT;Chinar|NE;Lotus|NE",
+"Ladakh,77.6,34.2,;Snow Leopard|VU;Black-necked Crane|NT;Seabuckthorn|NE;Himalayan Blue Poppy|NE",
+"Delhi,77.1,28.65,13.1;Nilgai|LC;House Sparrow|LC;Amaltas|NE;Alfalfa|NE",
+"Chandigarh,76.78,30.73,;Indian Grey Mongoose|LC;Indian Grey Hornbill|LC;Mango|DD;Palash|NE",
+"Puducherry,79.8,11.93,;Indian Palm Squirrel|LC;Asian Koel|LC;Bilva|NE;Cannonball Tree|NE",
+"Andaman & Nicobar Islands,92.7,11.7,81.6;Dugong|VU;Andaman Wood Pigeon|LC;Andaman Padauk|NE;Pyinma|NE",
+"Lakshadweep,72.6,10.57,;Butterfly Fish|NE;Sooty Tern|LC;Breadfruit|NE;Pisonia|NE"
+];
+const RICH={"Kerala":{animal:{sci:"Elephas maximus"},bird:{sci:"Buceros bicornis"},tree:{sci:"Cocos nucifera"},flower:{sci:"Cassia fistula"}}};
+const TINY=["Goa","Delhi","Chandigarh","Puducherry","Sikkim"];
+const ISL={"Andaman & Nicobar Islands":[92.1,6.7,94.3,13.8],"Lakshadweep":[71.9,8.0,74.2,12.5]};
+const TYPES=[["animal","State Animal","🐘"],["bird","State Bird","🦜"],["tree","State Tree","🌳"],["flower","State Flower","🌼"]];
+const IUCN={CR:["Critically Endangered","#c0392b"],EN:["Endangered","#e0701f"],VU:["Vulnerable","#c99a0a"],NT:["Near Threatened","#7aa33a"],LC:["Least Concern","#2e9d6b"],DD:["Data Deficient","#888"],NE:["Not Evaluated","#8a8f95"]};
+const pick=s=>({n:s.n||"",i:s.i||"NE",sci:s.sci||"",img:s.img||""});
+let DB={};
+let NK={};
+/* ---- Storage: IndexedDB (hundreds of MB) instead of localStorage (~5 MB, which filled up with photos) ---- */
+const LS="bioSymbols_v1";let useIDB=!!window.indexedDB;
+const IDB={db:null,
+ open(){return new Promise((res,rej)=>{const q=indexedDB.open("bioSymbolsDB",1);q.onupgradeneeded=()=>q.result.createObjectStore("states");q.onsuccess=()=>res(q.result);q.onerror=()=>rej(q.error)})},
+ async h(){return this.db||(this.db=await this.open())},
+ async all(){const db=await this.h();return new Promise((res,rej)=>{const o={},c=db.transaction("states").objectStore("states").openCursor();
+  c.onsuccess=()=>{const u=c.result;if(u){o[u.key]=u.value;u.continue()}else res(o)};c.onerror=()=>rej(c.error)})},
+ async put(k,v){const db=await this.h();return new Promise((res,rej)=>{const t=db.transaction("states","readwrite");t.objectStore("states").put(v,k);t.oncomplete=()=>res();t.onerror=t.onabort=()=>rej(t.error)})}};
+const merge=o=>Object.keys(o||{}).forEach(k=>{if(DB[k]){DB[k].forest=o[k].forest;Object.keys(o[k].sym||{}).forEach(t=>{if(DB[k].sym[t])DB[k].sym[t]=pick({...DB[k].sym[t],...o[k].sym[t]})})}});  // old removed fields (description, habitat…) are dropped here
+const rec=k=>({forest:DB[k].forest,sym:Object.fromEntries(Object.entries(DB[k].sym).map(([t,x])=>[t,pick(x)]))});
+const showUsage=()=>{try{navigator.storage.estimate().then(e=>{const el=document.getElementById("stg");if(el)el.textContent="Saved data: "+(e.usage/1048576).toFixed(1)+" MB"})}catch(x){}};
+const READY=(async()=>{
+ try { const r = await fetch('./data.json'); DB = await r.json(); NK=Object.fromEntries(Object.keys(DB).map(k=>[norm(k),k])); } catch(e){ console.error(e); }
+ let old=null;try{old=JSON.parse(localStorage.getItem(LS)||"null")}catch(e){}
+ try{if(!useIDB)throw new Error("no IndexedDB");
+  const o=await IDB.all();merge(old);merge(o);                       // older localStorage data first, newer IndexedDB data wins
+  if(old){for(const k of Object.keys(old))if(DB[k]&&!(k in o))await IDB.put(k,rec(k));try{localStorage.removeItem(LS)}catch(e){}} // migrate, then free the 5 MB
+  try{navigator.storage.persist&&navigator.storage.persist()}catch(e){}
+ }catch(e){useIDB=false;merge(old);console.warn("IndexedDB unavailable, using localStorage",e)}
+ showUsage()})();
+const save=async k=>{const keys=k?[k]:Object.keys(DB);
+ try{if(useIDB){await READY;for(const n of keys)await IDB.put(n,rec(n))}
+  else localStorage.setItem(LS,JSON.stringify(Object.fromEntries(Object.keys(DB).map(n=>[n,rec(n)]))));
+  showUsage();return true}
+ catch(e){alert("Could not save — the browser storage quota is full"+(useIDB?"":" (this browser blocks IndexedDB, so only ~5 MB is available)")+".\nFree space, use smaller photos, or put photos in an 'images' folder and use their paths instead.");return false}};
+const norm=s=>String(s||"").toLowerCase().replace(/&/g,"and").replace(/[^a-z]/g,"");
+const ALIAS={orissa:"odisha",uttaranchal:"uttarakhand",nctofdelhi:"delhi",delhi:"delhi",andamanandnicobar:"andamanandnicobarislands",andamannicobarislands:"andamanandnicobarislands",andamannicobar:"andamanandnicobarislands",pondicherry:"puducherry",telengana:"telangana",chattisgarh:"chhattisgarh",jammuandkashmir:"jammuandkashmir",jammukashmir:"jammuandkashmir"};
 
+const stateKey=s=>{const n=norm(s);if(!n)return"";if(NK[n])return NK[n];if(NK[ALIAS[n]])return NK[ALIAS[n]];if(n.length<8)return"";
+ const f=Object.keys(NK).find(k=>k.startsWith(n)||n.startsWith(k));return f?NK[f]:""};
+// find the state name in ANY text property of a GeoJSON feature (works with NAME_1, ST_NM, State_Name, etc.)
+const featName=p=>{for(const v of Object.values(p||{})){if(typeof v==="string"){const k=stateKey(v);if(k)return k}}return""};
+const $=id=>document.getElementById(id);
+const esc=t=>String(t??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const chip=i=>`<span class="chip" style="background:${IUCN[i][1]}">${IUCN[i][0]}</span>`;
+
+const Dash={cur:null,sel:"animal",
+ init(){
+  $("sl").innerHTML=Object.keys(DB).map(k=>`<a data-k="${k}">${k}</a>`).join("");
+  $("sl").onclick=e=>e.target.dataset.k&&this.open(e.target.dataset.k,true);
+  $("sq").oninput=e=>{const q=e.target.value.toLowerCase();[...$("sl").children].forEach(a=>a.style.display=a.textContent.toLowerCase().includes(q)?"":"none")};
+  $("dx").onclick=()=>this.close();addEventListener("keydown",e=>e.key==="Escape"&&this.close());
+  $("exp").onclick=()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(DB,null,1)],{type:"application/json"}));a.download="biodiversity-data.json";a.click()};
+  $("imp").onclick=()=>$("impf").click();
+  $("impf").onchange=async e=>{try{const o=JSON.parse(await e.target.files[0].text());Object.keys(o).forEach(k=>DB[k]&&(DB[k].forest=o[k].forest,Object.assign(DB[k].sym,o[k].sym)));await save();this.open(this.cur,true)}catch(x){alert("Invalid JSON file")}};
+  $("det").onclick=e=>{const a=e.target.dataset.a;if(a==="edit")this.edit();if(a==="cancel")this.detail()};
+ },
+ mks:[],
+ // hide labels that would overlap (big states win); zoom in to reveal small ones
+ bb:{},hov:"",
+ paint(n,on){const m=App.map;if(!m.getLayer("hf-"+n))return;m.setPaintProperty("hf-"+n,"fill-opacity",on?.32:0);m.setPaintProperty("hl-"+n,"line-opacity",on?1:0)},
+ ba:{},
+ vis(lng,lat){const m=App.map,c=m.getCenter(),h=m.getCanvas().clientHeight,R=512*Math.pow(2,m.getZoom())/(2*Math.PI),rad=Math.PI/180,
+  A=Math.acos(Math.min(1,R/(1.5*h+R)))/rad-2,la=c.lat*rad,p=lat*rad;
+  return Math.acos(Math.max(-1,Math.min(1,Math.sin(la)*Math.sin(p)+Math.cos(la)*Math.cos(p)*Math.cos((lng-c.lng)*rad))))/rad<=A},
+ occlude(){const m=App.map,c=m.getCenter(),h=m.getCanvas().clientHeight,R=512*Math.pow(2,m.getZoom())/(2*Math.PI),
+  A=Math.acos(Math.min(1,R/(1.5*h+R)))*180/Math.PI-2,rad=Math.PI/180,la=c.lat*rad,lo=c.lng*rad;
+  this.mks.forEach(({el,v})=>{const p=v.lat*rad,q=v.lng*rad,
+   d=Math.acos(Math.max(-1,Math.min(1,Math.sin(la)*Math.sin(p)+Math.cos(la)*Math.cos(p)*Math.cos(q-lo))))/rad;
+   el.classList.toggle("bk",d>A)})},
+ layout(){const m=App.map,box=[];this.occlude();this.mks.forEach(({el,k,v})=>{let ok=true;const b=this.bb[k];
+  if(b&&!ISL[k]){const a=m.project([b[0],b[1]]),c=m.project([b[2],b[3]]);ok=Math.abs(c.x-a.x)>el.offsetWidth*1.2&&Math.abs(c.y-a.y)>el.offsetHeight*2.5}
+  if(ok){const p=m.project([v.lng,v.lat]),w=el.offsetWidth+6,h=el.offsetHeight+4,r=[p.x-w/2,p.y-h/2,p.x+w/2,p.y+h/2];
+   if(box.some(q=>r[0]<q[2]&&r[2]>q[0]&&r[1]<q[3]&&r[3]>q[1]))ok=false;else box.push(r)}
+  el.classList.toggle("off",!ok)})},
+ markers(){const m=App.map,SMALL=["Goa","Delhi","Chandigarh","Puducherry","Lakshadweep","Tripura","Manipur","Mizoram","Nagaland","Sikkim","Meghalaya","Haryana"];
+  m.getContainer().classList.add("nob");
+  Object.entries(DB).sort((a,b)=>SMALL.includes(a[0])-SMALL.includes(b[0])).forEach(([k,v],i)=>{
+  const el=document.createElement("div");el.className="mk";el.textContent=k.replace("Andaman & Nicobar Islands","Andaman & Nicobar");
+  el.onclick=()=>this.open(k);this.mks.push({el,k,v});
+  new maplibregl.Marker({element:el,anchor:"center",opacityWhenCovered:"0"}).setLngLat([v.lng,v.lat]).addTo(m);setTimeout(()=>el.classList.add("in"),i*50)});
+  const fs=()=>m.getContainer().style.setProperty("--fs",Math.max(8,Math.min(13,m.getZoom()*2+.5))+"px");
+  fs();m.on("zoom",fs);
+  let busy=false,ev;const tip=$("tip");
+  m.on("mousemove",e=>{ev=e;if(busy)return;busy=true;requestAnimationFrame(()=>{busy=false;this.setHover(this.pick(ev.point));tip.style.left=ev.originalEvent.clientX+14+"px";tip.style.top=ev.originalEvent.clientY+12+"px"})});
+  m.on("click",e=>{const n=this.pick(e.point);n&&this.open(n)});
+  m.getCanvas().addEventListener("mouseleave",()=>this.setHover(""));
+  let lt=0;m.on("move",()=>{this.occlude();const n=performance.now();if(n-lt>120){lt=n;this.layout()}});m.on("moveend",()=>this.layout());setTimeout(()=>this.layout(),2200);
+  setTimeout(()=>this.bounds(),900)},
+ tip(k,e){const t=$("tip");if(!k){t.style.display="none";return}t.textContent=k;t.style.display="block";t.style.left=e.clientX+14+"px";t.style.top=e.clientY+10+"px"},
+ async bounds(){ // optional real state polygons; everything still works (via labels) if they can't load
+  const m=App.map;{try{
+   const j=await GEO;if(!j)throw new Error("boundary file unavailable");
+   j.features.forEach(f=>{f.properties=f.properties||{};const n=f.properties._n=featName(f.properties);if(!n||!f.geometry)return;
+    const g=f.geometry,polys=g.type==="Polygon"?[g.coordinates]:g.coordinates;
+    polys.forEach(pl=>{let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;pl[0].forEach(([x,y])=>{x0=Math.min(x0,x);x1=Math.max(x1,x);y0=Math.min(y0,y);y1=Math.max(y1,y)});
+     const o=this.bb[n];if(!o||(x1-x0)*(y1-y0)>(o[2]-o[0])*(o[3]-o[1]))this.bb[n]=[x0,y0,x1,y1];
+     const u=this.ba[n];this.ba[n]=u?[Math.min(u[0],x0),Math.min(u[1],y0),Math.max(u[2],x1),Math.max(u[3],y1)]:[x0,y0,x1,y1]})});
+   j.features=j.features.filter(f=>f.properties._n);if(!j.features.length)throw new Error("no state names matched");
+   m.addSource("st",{type:"geojson",data:j,tolerance:1.2,buffer:0});
+   [...new Set(j.features.map(f=>f.properties._n))].forEach(n=>{const fl=["==",["get","_n"],n];
+    m.addLayer({id:"hf-"+n,type:"fill",source:"st",filter:fl,paint:{"fill-color":"#5ce1e6","fill-opacity":0,"fill-opacity-transition":{duration:240}}});
+    m.addLayer({id:"hl-"+n,type:"line",source:"st",filter:fl,paint:{"line-color":"#c4fcff","line-width":1.8,"line-opacity":0,"line-opacity-transition":{duration:240}}})});
+   m.addLayer({id:"st-ln",type:"line",source:"st",paint:{"line-color":"#8ff3f6","line-width":.6,"line-opacity":.35}});
+   m.addLayer({id:"st-hit",type:"fill",source:"st",paint:{"fill-opacity":0}});
+   m.getContainer().classList.remove("nob");this.layout();console.info("State outlines loaded:",Object.keys(this.bb).length,"states matched");return
+  }catch(e){console.warn("State outlines failed",e)}}},
+ // which state is under the pointer? polygon first, then the island-group boxes (A&N, Lakshadweep)
+ pick(pt){const m=App.map;let ll;
+  try{ll=m.unproject(pt)}catch(e){return""}
+  if(!ll||isNaN(ll.lng)||isNaN(ll.lat)||!this.vis(ll.lng,ll.lat))return"";   // pointer is not over the visible face of the globe
+  let n="";
+  if(m.getLayer("st-hit")){const f=m.queryRenderedFeatures(pt,{layers:["st-hit"]})[0];n=f?f.properties._n:""}
+  // a polygon on the far side of the globe can "shine through": it must really be under the pointer's lng/lat
+  if(n){const b=this.ba[n];if(b&&!(ll.lng>=b[0]-1&&ll.lng<=b[2]+1&&ll.lat>=b[1]-1&&ll.lat<=b[3]+1))n=""}
+  if(n)return n;
+  for(const k in ISL){const b=ISL[k];if(ll.lng>=b[0]-.5&&ll.lng<=b[2]+.5&&ll.lat>=b[1]-.5&&ll.lat<=b[3]+.5)return k}
+  for(const k of TINY){const v=DB[k];if(!this.vis(v.lng,v.lat))continue;const p=m.project([v.lng,v.lat]);if(Math.hypot(pt.x-p.x,pt.y-p.y)<=11)return k}
+  return""},
+ setHover(n){if(n===this.hov)return;const m=App.map,tip=$("tip");
+  if(this.hov)this.paint(this.hov,0);this.hov=n;if(n)this.paint(n,1);
+  this.mks.forEach(x=>x.el.classList.toggle("hl",x.k===n));
+  m.getCanvas().style.cursor=n?"pointer":"";tip.style.display=n?"block":"none";if(n)tip.textContent=n},
+ open(k,noFly){this.setHover("");this.cur=k;const v=DB[k],d=$("dash"),was=d.classList.contains("show");
+  clearTimeout(this._t1);clearTimeout(this._t2);clearTimeout(this._t3);clearTimeout(this._t4);window.__dashBusy=true;
+  // 1) build all content while still hidden, so no layout work lands inside the animation
+  $("dt").textContent=k+" Biodiversity Dashboard";
+  [...$("sl").children].forEach(a=>a.classList.toggle("on",a.dataset.k===k));
+  const th=TYPES.filter(t=>["CR","EN","VU"].includes(v.sym[t[0]].i)).length;
+  $("fc").textContent=v.forest==null?"N/A":"0.0%";$("th").textContent="0";$("fb").style.width="0";
+  $("cards").innerHTML=TYPES.map((t,i)=>{const s=v.sym[t[0]];return`<div class="card" data-t="${t[0]}" style="--i:${i}"><div class="im">${s.img?`<img src="${esc(s.img)}" alt="${esc(s.n)}">`:t[2]}</div><small>${t[1]}</small><h3>${esc(s.n)}</h3>${chip(s.i)}</div>`}).join("");
+  [...$("cards").children].forEach(c=>c.onclick=()=>{this.sel=c.dataset.t;this.detail()});
+  this.detail();
+  if(!noFly){const w=d.querySelector(".dwin").getBoundingClientRect(),p=App.map.project([v.lng,v.lat]);
+   d.style.setProperty("--ox",Math.max(0,Math.min(w.width,p.x-w.left))+"px");d.style.setProperty("--oy",Math.max(0,Math.min(w.height,p.y-w.top))+"px")}
+  // 2) start the transition two frames later, on a settled layout
+  if(!was)requestAnimationFrame(()=>requestAnimationFrame(()=>d.classList.add("show")));
+  // 3) numbers + bar start once the window has settled
+  this._t1=setTimeout(()=>{this.count($("fc"),v.forest,"%",1);this.count($("th"),th,"",0);$("fb").style.width=(v.forest||0)+"%"},was?60:620);
+  // 4) camera move happens behind the glass after the window has landed (never during the animation)
+  if(!noFly&&!was&&!App.reduce)this._t2=setTimeout(()=>{const mp=App.map;mp.once("moveend",()=>window.__dashBusy=false);mp.easeTo({center:[v.lng,v.lat],zoom:5.4,duration:2600,easing:ease.inOutSine,essential:true});this._t4=setTimeout(()=>window.__dashBusy=false,3400)},750);
+  else this._t2=setTimeout(()=>window.__dashBusy=false,800)},
+ count(el,val,suf,dec){if(val==null||isNaN(val)){el.textContent="N/A";return}tween(1200,t=>el.textContent=(val*t).toFixed(dec)+suf,ease.outCubic)},
+ detail(){const v=DB[this.cur],t=TYPES.find(x=>x[0]===this.sel),s=v.sym[this.sel];
+  [...$("cards").children].forEach(c=>c.classList.toggle("sel",c.dataset.t===this.sel));
+  const NOTE={CR:"Extremely high risk of extinction in the wild.",EN:"Very high risk of extinction in the wild.",VU:"High risk of extinction in the wild.",NT:"Close to qualifying as threatened.",LC:"Evaluated and does not qualify as threatened.",DD:"Not enough data to assess its extinction risk.",NE:"Not yet evaluated against the IUCN Red List criteria."};
+  $("det").innerHTML=`<div class="det"><div class="pic">${s.img?`<img src="${esc(s.img)}" alt="${esc(s.n)}">`:t[2]}</div><div class="info"><div class="kick">${t[1]} of ${esc(this.cur)}</div><h3>${esc(s.n)}</h3><em class="sci">${esc(s.sci)||"Scientific name — add"}</em>
+  <div class="stat">${chip(s.i)}<span>IUCN Red List status</span></div>
+  <div class="scale">${["CR","EN","VU","NT","LC"].map(k=>`<b class="${k===s.i?"on":""}" style="background:${IUCN[k][1]}" title="${IUCN[k][0]}">${k}</b>`).join("")}</div>
+  <p class="note">${NOTE[s.i]||""}</p><button class="dbtn" data-a="edit">✎ Edit name, status &amp; image</button></div></div>`},
+ edit(){const v=DB[this.cur],s=v.sym[this.sel];
+  $("det").innerHTML=`<div class="det" style="display:block"><form id="ef">
+  <label>Name<input name="n" value="${esc(s.n)}"></label><label>Scientific name<input name="sci" value="${esc(s.sci)}"></label>
+  <label>IUCN status<select name="i">${Object.keys(IUCN).map(k=>`<option value="${k}" ${k===s.i?"selected":""}>${k} — ${IUCN[k][0]}</option>`).join("")}</select></label>
+  ${s.img?`<div style="display:flex;gap:10px;align-items:center;font-size:12px;color:#6b7c76"><img src="${esc(s.img)}" alt="" style="height:54px;border-radius:8px"><span>Current image is kept unless you upload or enter a new one.</span><label style="display:flex;gap:5px;align-items:center;margin-left:auto;text-transform:none;letter-spacing:0"><input type="checkbox" name="rmimg" style="width:auto"> remove image</label></div>`:""}
+  <label>Image URL / path (leave blank to keep the current image)<input name="img" value="${s.img&&!s.img.startsWith("data:")?esc(s.img):""}" placeholder="https://… or images/photo.jpg"></label>
+  <label>…or upload image<input type="file" name="file" accept="image/*"></label>
+  <label>State forest cover % (applies to whole state)<input name="forest" type="number" step="0.1" value="${v.forest??""}"></label>
+  <div><button class="dbtn" type="submit">Save</button><button class="dbtn g" type="button" data-a="cancel">Cancel</button></div></form></div>`;
+  $("ef").onsubmit=async e=>{e.preventDefault();const f=new FormData(e.target);
+   ["n","sci","i"].forEach(k=>s[k]=f.get(k));
+   const newUrl=String(f.get("img")||"").trim();if(f.get("rmimg"))s.img="";else if(newUrl)s.img=newUrl;
+   const file=f.get("file");if(file&&file.size){s.img=await new Promise(r=>{const fr=new FileReader();fr.onload=()=>{const im=new Image();im.onload=()=>{const c=document.createElement("canvas"),z=Math.min(1,700/im.width);c.width=im.width*z;c.height=im.height*z;c.getContext("2d").drawImage(im,0,0,c.width,c.height);r(c.toDataURL("image/jpeg",.82))};im.src=fr.result};fr.readAsDataURL(file)})}
+   v.forest=f.get("forest")===""?null:+f.get("forest");if(!(await save(this.cur)))return;this.open(this.cur,true)}},
+ close(){const d=$("dash");if(!d.classList.contains("show"))return;
+  clearTimeout(this._t1);clearTimeout(this._t2);clearTimeout(this._t3);clearTimeout(this._t4);window.__dashBusy=true;d.classList.remove("show");
+  this._t3=setTimeout(()=>{if(App.state!=="live"){window.__dashBusy=false;return}const mp=App.map;mp.once("moveend",()=>window.__dashBusy=false);mp.easeTo({...CONFIG.india,duration:2400,easing:ease.inOutSine,essential:true});this._t4=setTimeout(()=>window.__dashBusy=false,3200)},420)}
+};
+CONFIG.boundsUrls=["https://raw.githubusercontent.com/india-in-data/india-states-2019/master/india_states.geojson","https://raw.githubusercontent.com/Subhash9325/GeoJson-Data-of-Indian-States/master/Indian_States"];
+/* ---- Accurate India outline: dissolve the state polygons into one border ----
+   Runs in a Web Worker (needs internet for polygon-clipping from jsDelivr).
+   If anything fails, the hand-built INDIA_RINGS outline is kept.            */
+const GEO=(async()=>{ await READY; for(const u of CONFIG.boundsUrls){try{const r=await fetch(u);if(!r.ok)continue;const j=await r.json();
+  if(j.features&&j.features.filter(f=>featName(f.properties)).length>=20)return j}catch(e){}}return null})();
+const WORKER_SRC=`
+importScripts("https://cdn.jsdelivr.net/npm/polygon-clipping@0.15.7/dist/polygon-clipping.umd.min.js");
+function dp(a,t){if(a.length<5)return a;const k=new Uint8Array(a.length);k[0]=k[a.length-1]=1;const st=[[0,a.length-1]];
+ while(st.length){const[s,e]=st.pop();let md=0,ix=-1;const x1=a[s][0],y1=a[s][1],dx=a[e][0]-x1,dy=a[e][1]-y1,l2=dx*dx+dy*dy;
+  for(let i=s+1;i<e;i++){const x=a[i][0],y=a[i][1];let d;if(!l2)d=Math.hypot(x-x1,y-y1);else{let u=((x-x1)*dx+(y-y1)*dy)/l2;u=u<0?0:u>1?1:u;d=Math.hypot(x-x1-u*dx,y-y1-u*dy)}if(d>md){md=d;ix=i}}
+  if(md>t&&ix>0){k[ix]=1;st.push([s,ix],[ix,e])}}
+ return a.filter((_,i)=>k[i])}
+onmessage=e=>{try{
+ const multis=[];e.data.geoms.forEach(g=>{const polys=g.type==="Polygon"?[g.coordinates]:g.coordinates,m=[];
+  polys.forEach(p=>{const r=dp(p[0],.003);if(r.length>=4)m.push([r])});if(m.length)multis.push(m)});
+ let u;try{u=polygonClipping.union(...multis)}catch(x){u=[];multis.forEach(m=>{try{u=u.length?polygonClipping.union(u,m):m}catch(y){}})}
+ const rings=u.map(p=>dp(p[0],.002)).filter(r=>r.length>=4);
+ postMessage({rings})}catch(x){postMessage({error:String(x)})}};`;
+const area=r=>{let a=0;for(let i=0;i<r.length-1;i++)a+=r[i][0]*r[i+1][1]-r[i+1][0]*r[i][1];return a/2};
+const OUT=GEO.then(j=>new Promise(res=>{
+  if(!j)return res(null);
+  try{const w=new Worker(URL.createObjectURL(new Blob([WORKER_SRC],{type:"text/javascript"})));
+   const t=setTimeout(()=>{w.terminate();res(null)},40000);
+   w.onerror=()=>{clearTimeout(t);res(null)};
+   w.onmessage=e=>{clearTimeout(t);w.terminate();res(e.data.rings||null)};
+   w.postMessage({geoms:j.features.map(f=>f.geometry).filter(Boolean)})}catch(x){res(null)}
+})).then(rings=>{
+  if(!rings||!rings.length)return console.warn("Accurate outline unavailable — keeping hand-built outline");
+  rings=rings.filter(r=>{let a=1e9,b=1e9,c=-1e9,d=-1e9;r.forEach(([x,y])=>{a=Math.min(a,x);c=Math.max(c,x);b=Math.min(b,y);d=Math.max(d,y)});return Math.hypot(c-a,d-b)>=.015})
+        .sort((p,q)=>Math.abs(area(q))-Math.abs(area(p))).slice(0,150);
+  const main=rings[0],ratio=Math.abs(area(main))/Math.abs(area(INDIA_RINGS[0]));
+  if(!(ratio>.75&&ratio<1.3))return console.warn("Outline sanity check failed (area ratio "+ratio.toFixed(2)+") — keeping hand-built outline");
+  // mainland: clockwise, starting at Sir Creek (same as the hand-built path) so the trace starts/ends in the same place
+  let m=main.slice(0,-1);if(area(main)>0)m.reverse();
+  let bi=0,bd=1e9;m.forEach(([x,y],i)=>{const d=Math.hypot(x-68.2,y-23.7);if(d<bd){bd=d;bi=i}});
+  m=m.slice(bi).concat(m.slice(0,bi));m.push(m[0]);rings[0]=m;
+  INDIA_FILL={type:"FeatureCollection",features:rings.map(r=>({type:"Feature",properties:{},geometry:{type:"Polygon",coordinates:[r]}}))};
+  INDIA_LINES={type:"FeatureCollection",features:rings.map(r=>({type:"Feature",properties:{},geometry:{type:"LineString",coordinates:r}}))};
+  const mp=App.map;if(mp&&mp.getSource("in-line")){mp.getSource("in-line").setData(INDIA_LINES);mp.getSource("in-fill").setData(INDIA_FILL)}
+  console.info("Accurate India outline built from state polygons:",rings.length,"rings");return rings;
+}).catch(e=>{console.warn("Outline build failed",e)});
+
+READY.then(()=>{
+  Dash.init();
+  if($("dash").classList.contains("show"))Dash.open(Dash.cur,true);
+  App.init();
+});
